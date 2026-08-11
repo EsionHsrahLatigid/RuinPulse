@@ -86,7 +86,7 @@ if(RUINPULSE_BUILD_PLUGIN)
         PLUGIN_EMAIL ""
         PLUGIN_VERSION "${PROJECT_VERSION}"
         PLUGIN_DESCRIPTION "Phase-distorted pulse-avalanche synth"
-        PLUGIN_URL "https://github.com/2bbb/RuinPulse"
+        PLUGIN_URL "https://github.com/EsionHsrahLatigid/RuinPulse"
         PLUGIN_IS_SYNTH ON
         PLUGIN_IS_MONO OFF
         PLUGIN_CREATE_CLAP OFF
