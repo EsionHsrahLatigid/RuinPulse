@@ -43,7 +43,7 @@
       "name": "plugin-release",
       "configurePreset": "plugin-release",
       "targets": [
-        "ruinpulse_release_bundles",
+        "ehl_stage_products",
         "ruinpulse_engine_tests",
         "ruinpulse_plugin_bridge_tests"
       ]
