@@ -77,12 +77,12 @@ if(RUINPULSE_BUILD_PLUGIN)
         TARGET_NAME ruinpulse
         TARGET_VERSION ${PROJECT_VERSION}
         TARGET_IDE_GROUP "RuinPulse"
-        TARGET_APP_ID "audio.2bit.ruinpulse"
-        TARGET_APP_NAMESPACE "audio.2bit"
+        TARGET_APP_ID "jp.ehl.ruinpulse"
+        TARGET_APP_NAMESPACE "jp.ehl"
         TARGET_CXX_STANDARD 20
-        PLUGIN_ID "audio.2bit.RuinPulse"
+        PLUGIN_ID "jp.ehl.ruinpulse"
         PLUGIN_NAME "RuinPulse"
-        PLUGIN_VENDOR "2bit"
+        PLUGIN_VENDOR "ehl_"
         PLUGIN_EMAIL ""
         PLUGIN_VERSION "${PROJECT_VERSION}"
         PLUGIN_DESCRIPTION "Phase-distorted pulse-avalanche synth"
@@ -93,7 +93,7 @@ if(RUINPULSE_BUILD_PLUGIN)
         PLUGIN_CREATE_VST3 ON
         PLUGIN_CREATE_AU ${RUINPULSE_CREATE_AU}
         PLUGIN_AU_SUBTYPE "RnPu"
-        PLUGIN_AU_MANUFACTURER "2Bit"
+        PLUGIN_AU_MANUFACTURER "EHL1"
         PLUGIN_AU_SANDBOX_SAFE ON
         PLUGIN_CREATE_AUv3 OFF
         PLUGIN_CREATE_LV2 OFF
@@ -144,9 +144,9 @@ if(RUINPULSE_BUILD_PLUGIN)
 
     if(APPLE)
         set_target_properties(ruinpulse_standalone_plugin PROPERTIES
-            MACOSX_BUNDLE_GUI_IDENTIFIER "audio.2bit.ruinpulse"
+            MACOSX_BUNDLE_GUI_IDENTIFIER "jp.ehl.ruinpulse"
             MACOSX_BUNDLE_BUNDLE_NAME "RuinPulse"
-            XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER "audio.2bit.ruinpulse")
+            XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER "jp.ehl.ruinpulse")
     endif()
 
     if(APPLE AND RUINPULSE_ADHOC_SIGN)

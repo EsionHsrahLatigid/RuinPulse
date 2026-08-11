@@ -6,8 +6,8 @@ RuinPulse is a focused phase-distorted pulse-avalanche synth. MIDI notes tune a 
 
 - [x] Project name is `RuinPulse`.
 - [x] Version is `0.1.0`.
-- [x] App ID is `audio.2bit.ruinpulse`.
-- [x] Plugin ID is `audio.2bit.RuinPulse`.
+- [x] App ID is `jp.ehl.ruinpulse`.
+- [x] Plugin ID is `jp.ehl.ruinpulse`.
 - [x] AU subtype is `RnPu`.
 - [x] Plugin is a synth with MIDI input and stereo audio output.
 - [x] State format uses stable parameter ID/value pairs.

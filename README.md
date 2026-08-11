@@ -5,8 +5,8 @@ RuinPulse is a YUP-based audio plugin and standalone synth that renders a phase-
 ## Identity
 
 - Version: `0.1.0`
-- App ID: `audio.2bit.ruinpulse`
-- Plugin ID: `audio.2bit.RuinPulse`
+- App ID: `jp.ehl.ruinpulse`
+- Plugin ID: `jp.ehl.ruinpulse`
 - AU subtype: `RnPu`
 - Vendor: `2bit`
 - Type: stereo-output synth accepting MIDI input
