@@ -298,7 +298,7 @@ yup::AudioProcessorEditor* RuinPulsePlugin::createEditor()
     return new ParameterGridEditor (*this,
                                     "RuinPulse",
                                     "Phase-distorted pulse avalanche",
-                                    0xffffd400u);
+                                    0xfff2f2f0u);
 #endif
 }
 

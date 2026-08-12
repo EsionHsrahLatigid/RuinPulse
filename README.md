@@ -8,7 +8,8 @@ RuinPulse is a YUP-based audio plugin and standalone synth that renders a phase-
 - App ID: `jp.ehl.ruinpulse`
 - Plugin ID: `jp.ehl.ruinpulse`
 - AU subtype: `RnPu`
-- Vendor: `2bit`
+- Plugin vendor: `ehl_`
+- AU manufacturer: `EHL1`
 - Type: stereo-output synth accepting MIDI input
 - macOS formats: Standalone, VST3, AUv2
 - Windows formats: Standalone, VST3
@@ -25,6 +26,12 @@ The editor includes a momentary `Trigger` control for the Standalone app. Press 
 The editor also shows an output activity meter. Trigger edges and meter values move through processor-owned atomics, so realtime rendering stays lock-free and allocation-free.
 
 ## Build
+
+Clone with `--recurse-submodules`, or initialize the shared [yup-ehl-design-module](https://github.com/EsionHsrahLatigid/yup-ehl-design-module) before configuring:
+
+```sh
+git submodule update --init
+```
 
 ```sh
 cmake --preset engine-debug
