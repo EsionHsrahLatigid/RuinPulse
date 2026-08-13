@@ -47,6 +47,8 @@ ctest --preset plugin-release
 
 Release bundles are staged under `artifacts/plugin-release/<platform-arch>/{standalone,vst3,au}` by the common `ehl_stage_products` target. `build/` remains CMake's internal workspace; Windows uses `windows-x64` without AU.
 
+For local macOS non-CI `plugin-release` builds, staged VST3 and AU bundles are also physically copied to `~/Library/Audio/Plug-Ins/VST3` and `~/Library/Audio/Plug-Ins/Components`. The Standalone app stays under `artifacts/plugin-release/<platform-arch>/standalone`. Configure with `-DEHL_COPY_PLUGIN_AFTER_BUILD=OFF` to disable the local plugin copy.
+
 - `ruinpulse_release_bundles`
 - `ruinpulse_standalone_plugin`
 - `ruinpulse_vst3_plugin`
